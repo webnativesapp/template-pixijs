@@ -1,22 +1,7 @@
-# Template > PixiJS
-
-Getting started with [PixiJS](https://pixijs.io/guides/basics/getting-started.html) ready template.
-
-#### External dependencies.
-- Scripts
-> https://pixijs.download/release/pixi.min.js
-
-#### Folder structure
-- 📁/root
-    - 📁/logic *all your app logic should be here*
-    - 📁/ui *all your user interface logic should be here*
-        - 📁/schemas *auto generated JSON schemas from the [WYSIWYG Editor](#wysiwyg)*
-        - 🗎 Bootstrap.js
-        - 🗎 App.js *__entry file__*
-    - 📁/workers *__advanced__: place and register your service workers here*
-
-### To start just modify the src/ui/App.js file.
-```
+var namespace = 'App';
+//----------------------------------------------------------------------------------------------------------------------
+// https://pixijs.io/guides/basics/getting-started.html
+//----------------------------------------------------------------------------------------------------------------------
 class App {
 
   constructor() {
@@ -46,8 +31,6 @@ class App {
   }
 
 }
-```
-#### Find the live demo [here](https://webnatives.app/templates).
-
----------------------------
-© 2023 WebNatives
+//----------------------------------------------------------------------------------------------------------------------
+exports = App;
+//--------------------------------------------------------------------------------------------------------------------EOF
